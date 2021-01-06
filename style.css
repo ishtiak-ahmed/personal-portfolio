@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.1em;
+  color: #363958;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+section {
+  padding: 40px 100px;
+  height: 100vh;
+}
+
+.column {
+  width: 46%;
+  margin: 2%;
+  float: left;
+}
+/* Header Section */
+.menu {
+  /* background-color: blue; */
+  height: 55px;
+  margin-bottom: 35px;
+}
+.menu ul {
+  float: right;
+  list-style: none;
+}
+.highlight-text {
+  color: #ff5349;
+}
+.menu li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.menu a {
+  color: #3c3c3c;
+}
+
+.text-area {
+  padding: 50px 0;
+}
+.text-area h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+p {
+  margin: 25px 0;
+  font-size: 18px;
+}
+.primary-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(45deg, #ff8063, #f81515);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+/* About Section */
+#about h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+/* Work Section */
+#work {
+  background-color: #f8f9fc;
+}
+.work-item {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #aca9a9;
+  height: 430px;
+}
+#last-work-item {
+  margin-right: 0;
+}
+#work h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 5px 5px 5px #aca9a9;
+}
+#work h3 {
+  margin: 15px 0;
+}
+#work p {
+  margin: 15px 0;
+}
+/* Testimonial Section */
+#testimonial {
+  height: 85vh;
+}
+#testimonial h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.client {
+  background-color: #fff;
+  box-shadow: 5px 5px 25px gray;
+  height: 300px;
+  width: 900px;
+  margin: auto;
+  padding: 45px;
+  border-radius: 20px;
+}
+
+.qoute {
+  height: 200px;
+  width: 500px;
+  float: left;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.qoute h4 {
+  margin: 15px 0;
+  color: #054e38;
+}
+#testimonial span {
+  font-size: 45px;
+  color: #054e38;
+}
+
+.avatar {
+  float: right;
+}
+.avatar img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #d87518;
+  padding: 20px;
+}
+/* Chat Section */
+#contact {
+  height: 50vh;
+}
+.chat-area {
+  width: 900px;
+  height: 220px;
+  margin: auto;
+  background-image: url("images/chat-bg.png");
+  background-repeat: no-repeat;
+  padding: 45px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.chat-area div {
+  height: 100%;
+  padding: 50px 0;
+}
+#contact h2 {
+  float: left;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #fff;
+}
+#contact a {
+  float: right;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: gray;
+}
+
+footer email {
+  font-size: 25px;
+  color: #3c3c3c;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
